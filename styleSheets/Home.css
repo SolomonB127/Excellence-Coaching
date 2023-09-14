@@ -7,6 +7,7 @@ body{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+/* NavBar */
 nav{
     list-style-type: none;
     width: 100%;
@@ -28,6 +29,7 @@ nav li a{
     position: relative;
     margin-right: 50px;
 }
+/* Hover Dropdown */
 .dropbtn {
     background-color: #0000ff;
     color: white;
@@ -39,12 +41,10 @@ nav li a{
     width: 90px;
     height: 40px;
   }
-  
 .dropdown {
     position: relative;
     display: inline-block;
 }
-  
 .dropdown-content {
     display: none;
     position: absolute;
@@ -53,30 +53,25 @@ nav li a{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-  
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
-  
 .dropdown-content a:hover {background-color: #ddd;}
-  
 .dropdown:hover .dropdown-content {display: block;}
-  
 .dropdown:hover .dropbtn {background-color: #49498a;}
-
+/* Logo */
 .logo{
     width: 100px;
 }
-
+/* Search Container */
 .search-con{
     display: flex;
     padding-left: 30px;
 }
-.searchDrop{
-}
+/* Search Dropdown */
 .searchDropdown-content {
     display: none;
     position: absolute;
@@ -87,18 +82,14 @@ nav li a{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-  
 .searchDropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
-  
 .dropdown a:hover {background-color: #ddd;}
-  
 .show {display: block;}
-  
 .searchBtn{
     background-color: #0000ff;
     border-radius: 3px;
