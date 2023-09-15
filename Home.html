@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="Scripts\JQuery Download\JQuery.js"></script>
-    <!-- <link rel="stylesheet" href="styleSheets\bootstrap.css"> -->
+    <link rel="stylesheet" href="styleSheets\bootstrap.css">
     <link rel="stylesheet" href="styleSheets\Home MQ.css">
     <link rel="stylesheet" href="styleSheets\Home.css">
     <script defer src="Scripts\bootstrap.bundle.js"></script>
@@ -15,8 +15,48 @@
     <!-- Head Section -->
     <!-- NavBar -->
     <nav>
-        <section>
-            <ul>
+        <!-- Mobile sideNav -->
+         <!-- Side Nav -->
+         <div id="mySidenav" class="sidenav">
+            <a class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="Home.html" class="active">Home</a>
+            <hr>
+            <a href="#about">About</a>
+            <hr>
+            <a href="Catalogue.html">Catalogue</a>
+            <hr>
+            <a href="Contact.html">Contact</a>
+            <hr>
+            <a href="Warranty.html">Warranty Info.</a>
+            <hr>
+            <a href="bank.html">Payment Info.</a>
+            <hr>
+        </div>
+
+        <section id="sideNav">
+            <div id="open">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+            <div class="logo">
+                <a href="#"><img src="Images\logo.png" alt="" width="140"></a>
+            </div>
+            
+
+            <div class="search-con">
+                <!-- <input type="search" name="" placeholder="What do you want to learn" onclick="myFunction()" class="searchDrop">
+                <div id="myDropdown" class="searchDropdown-content">
+                  <a href="#home">Home</a>
+                  <a href="#about">About</a>
+                  <a href="#contact">Contact</a>
+                </div> -->
+                <div class="searchBtn">
+                    <img src="Images\icons8-search-150.png" alt="" width="30">
+                </div>
+            </div>
+        </section>
+
+        <section id="mainNav">
+            <ul class="guideHub">
                 <!-- Hover dropDown -->
                 <div class="dropdown">
                     <button class="dropbtn">Courses</button>
@@ -39,17 +79,22 @@
                         <img src="Images\icons8-search-150.png" alt="" width="30">
                     </div>
                 </div>
+
+               
             </ul>
 
             <!-- Logo -->
             <div class="logo">
-                <img src="Images\logo.png" alt="" width="140">
+                <a href="#"><img src="Images\logo.png" alt="" width="140" height="80"></a>
             </div>
 
             <!-- Links -->
-            <ul>
+            <ul class="links">
                 <li>
                     <a href="#">Get AI Guide</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
                 </li>
                 <li>
                     <a href="#">Login</a>

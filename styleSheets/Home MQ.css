@@ -1,0 +1,92 @@
+/* Side Nav */
+@media all and (200px <= width <= 900px) {
+body{
+    overflow-x: hidden;
+}
+#mainNav{
+    display: none;
+}
+/* Apply flexbox to the sideNav section */
+#sideNav {
+    display: flex;
+    align-items: center; /* Vertically center align items */
+    justify-content: space-between; /* Space between elements */
+    /* Add padding for spacing */
+    background-color: #fff;
+}
+
+#sideNav #open {
+    flex: 1; /* Distribute available space evenly among child elements */
+}
+
+.logo {
+    flex: 1; /* Distribute available space evenly among child elements */
+}
+
+.search-con {
+    display: flex;
+    align-items: center;
+}
+
+/* Add additional styling for your search input and button as needed */
+.searchBtn {
+    margin-left: 20px; /* Add margin for spacing */
+}
+
+#sideNav #open{
+    display: initial;
+    position: relative;
+    color: black;
+    top: 10%;
+    
+}
+#sideNav .searchBtn{
+   position: relative;
+   top: 2%;
+   left: 30px;
+   background: none;
+   border: none;
+}
+#sideNav .logo{
+   position: relative;
+   left: 40px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: initial;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    text-align: center;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    text-decoration: underline;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+}
+
+
