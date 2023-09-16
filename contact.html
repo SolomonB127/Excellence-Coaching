@@ -15,60 +15,42 @@
 </head>
 
 <body>
-    <!-- Head Section -->
-    <!-- NavBar -->
-    <nav>
-        <section>
-            <ul>
-                <!-- Hover dropDown -->
-                <div class="dropdown">
-                    <button class="dropbtn">Courses</button>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="Images/logo.png" alt="" width="100"></a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <div class="course-dropdown">
+                        <button onclick="mycourseFunction()" class="course-dropbtn">Courses</button>
+                        <div id="courseDropdown" class="course-dropdown-content">
+                          <a href="Home.html">Home</a>
+                          <a href="#about">About</a>
+                          <a href="contact.html">Contact</a>
+                        </div>
                     </div>
-                </div>
-
-                <!-- Search Bar -->
-                <div class="search-con">
-                    <input type="search" name="" placeholder="What do you want to learn" onclick="myFunction()"
-                        class="searchDrop">
-                    <div id="myDropdown" class="searchDropdown-content">
-                        <a href="#home">Home</a>
-                        <a href="#about">About</a>
-                        <a href="#contact">Contact</a>
-                    </div>
-                    <div class="searchBtn">
-                        <img src="Images\icons8-search-150.png" alt="" width="30">
-                    </div>
-                </div>
-            </ul>
-
-            <!-- Logo -->
-            <div class="logo">
-                <img src="Images\logo.png" alt="" width="140">
+                    <li class="nav-item" id="nav-item">
+                        <a class="nav-link" href="#">Get AI Guide</a>
+                    </li>
+                    <li class="nav-item" id="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                    <li class="nav-item" id="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item" id="nav-item">
+                        <a class="nav-link" href="#">Sign up</a>
+                    </li>
+                    
+                </ul>
             </div>
-
-            <!-- Links -->
-            <ul>
-                <li>
-                    <a href="#">Get AI Guide</a>
-                </li>
-                <li>
-                    <a href="#">Login</a>
-                </li>
-                <li>
-                    <a href="#">Sign up</a>
-                </li>
-                <li>
-                    <a href="#">
-                        <button>Join for Free</button>
-                    </a>
-                </li>
-            </ul>
-        </section>
+        </div>
     </nav>
+
+
     <!-- content -->
 
     <!-- content-1 -->
