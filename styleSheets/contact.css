@@ -1,3 +1,4 @@
+/* Media Queries */
 @media all and (max-width: 820px) {
     .course-dropbtn {
        background: none; 
@@ -20,7 +21,7 @@
     font-size: 1.3rem;
 }
 
-
+/* iFrame */
 iframe {
     height: 80vh;
     width: 40rem;

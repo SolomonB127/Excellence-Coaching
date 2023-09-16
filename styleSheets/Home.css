@@ -1,20 +1,19 @@
-.searchBtn{
-    background-color: #0000ff;
-    border-radius: 3px;
-    cursor: pointer;
-}
+
+/* NavBar */
 .navbar-brand {
-    float: none;
+  float: none;
   }
   .navbar-center {
-      position: absolute;
-      width: 100%;
-      left: 0;
-      top: 0;
-      text-align: center;
-      margin: auto;
-      height:100%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    height:100%;
   }
+
+  /* Courses Button */
   .course-dropbtn {
     background-color: #0000ff;
     color: white;
@@ -62,6 +61,12 @@
   
   .course-show {display: flex;}
 
+  /* Search Button Styling */
+.searchBtn{
+  background-color: #0000ff;
+  border-radius: 3px;
+  cursor: pointer;
+}
 .searchDropdown-content {
     display: none;
     position: absolute;
@@ -101,6 +106,7 @@
    
     font-size: 1rem;
 }
+/* Media Queries */
 @media all and (max-width: 820px) {
     .searchDropdown-content {
         top: 40%;
