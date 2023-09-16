@@ -2,113 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="Scripts\JQuery Download\JQuery.js"></script>
+    <script src="Scripts\bootstrap.bundle.js"></script>
     <link rel="stylesheet" href="styleSheets\bootstrap.css">
     <link rel="stylesheet" href="styleSheets\Home MQ.css">
     <link rel="stylesheet" href="styleSheets\Home.css">
-    <script defer src="Scripts\bootstrap.bundle.js"></script>
-    <script defer src="Scripts\Home.js"></script>
-    <title>ExcellenceCoaching</title>
+    <script src="Scripts\Home.js"></script>
+    <title>Document</title>
 </head>
 <body>
-    <!-- Head Section -->
-    <!-- NavBar -->
-    <nav>
-        <!-- Mobile sideNav -->
-         <!-- Side Nav -->
-         <div id="mySidenav" class="sidenav">
-            <a class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="Home.html" class="active">Home</a>
-            <hr>
-            <a href="#about">About</a>
-            <hr>
-            <a href="Catalogue.html">Catalogue</a>
-            <hr>
-            <a href="Contact.html">Contact</a>
-            <hr>
-            <a href="Warranty.html">Warranty Info.</a>
-            <hr>
-            <a href="bank.html">Payment Info.</a>
-            <hr>
-        </div>
-
-        <section id="sideNav">
-            <div id="open">
-                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-            </div>
-            <div class="logo">
-                <a href="#"><img src="Images\logo.png" alt="" width="140"></a>
-            </div>
-            
-
-            <div class="search-con">
-                <!-- <input type="search" name="" placeholder="What do you want to learn" onclick="myFunction()" class="searchDrop">
-                <div id="myDropdown" class="searchDropdown-content">
-                  <a href="#home">Home</a>
-                  <a href="#about">About</a>
-                  <a href="#contact">Contact</a>
-                </div> -->
-                <div class="searchBtn">
-                    <img src="Images\icons8-search-150.png" alt="" width="30">
-                </div>
-            </div>
-        </section>
-
-        <section id="mainNav">
-            <ul class="guideHub">
-                <!-- Hover dropDown -->
-                <div class="dropdown">
-                    <button class="dropbtn">Courses</button>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </div>
-
-                <!-- Search Bar -->
-                <div class="search-con">
-                    <input type="search" name="" placeholder="What do you want to learn" onclick="myFunction()" class="searchDrop">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="Images/logo.png" alt="" width="100"></a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="form-inline my-2 my-lg-0 ml-auto">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search Courses..." aria-label="Search" onclick="mysearchFunction()">
                     <div id="myDropdown" class="searchDropdown-content">
-                      <a href="#home">Home</a>
-                      <a href="#about">About</a>
-                      <a href="#contact">Contact</a>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#contact">Contact</a>
+                      </div>
+                    <button class="btn searchBtn btn-outline-success my-2 my-sm-0" type="submit"><img src="Images\icons8-search-150.png" alt="" width="20"></button>
+                </form>
+                <ul class="navbar-nav ml-auto">
+                    <div class="course-dropdown">
+                        <button onclick="mycourseFunction()" class="course-dropbtn">Courses</button>
+                        <div id="courseDropdown" class="course-dropdown-content">
+                          <a href="#home">Home</a>
+                          <a href="#about">About</a>
+                          <a href="#contact">Contact</a>
+                        </div>
                     </div>
-                    <div class="searchBtn">
-                        <img src="Images\icons8-search-150.png" alt="" width="30">
-                    </div>
-                </div>
-
-               
-            </ul>
-
-            <!-- Logo -->
-            <div class="logo">
-                <a href="#"><img src="Images\logo.png" alt="" width="140" height="80"></a>
+                    <li class="nav-item" id="nav-item">
+                        <a class="nav-link" href="#">Get AI Guide</a>
+                    </li>
+                    <li class="nav-item" id="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                    <li class="nav-item" id="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item" id="nav-item">
+                        <a class="nav-link" href="#">Sign up</a>
+                    </li>
+                    <li class="nav-item freeTrial" id="nav-item">
+                        <a href="#">
+                            <button>Join for Free</button>
+                        </a>
+                    </li>
+                </ul>
             </div>
-
-            <!-- Links -->
-            <ul class="links">
-                <li>
-                    <a href="#">Get AI Guide</a>
-                </li>
-                <li>
-                    <a href="#">Contact Us</a>
-                </li>
-                <li>
-                    <a href="#">Login</a>
-                </li>
-                <li>
-                    <a href="#">Sign up</a>
-                </li>
-                <li>
-                    <a href="#">
-                        <button>Join for Free</button>
-                    </a>
-                </li>
-            </ul>
-        </section>
+        </div>
     </nav>
 </body>
 </html>
