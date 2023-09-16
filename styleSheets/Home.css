@@ -100,4 +100,14 @@
         top: 40%;
     }
 
+    .course-dropbtn {
+       background: none; 
+       color: #0000ff;
+       right: 15px;
+       position: relative;
+       font-weight: bolder;
+      }
+      .course-dropbtn:focus{
+        background: none;
+      }
 }
