@@ -1,4 +1,28 @@
+/* Content Start (Cover-Image and Introductory write-up) */
+@media all and (200px <= width <= 700px) {
+    .cover-img{
+        display: none;
+    }
+    .start-write-up{
+        text-align: center;
+    }
+    .content-start-btn button{
+        margin: 10px 0 0 10%;
+    }
+}
+@media all and (701px <= width <= 1024px) {
+    .content-start-btn button{
+        margin: 10px 0 0;
+    }
+}
 
+/* Recommendations */
+@media (max-width: 768px) {
+    .courses-card {
+        margin: 0 30px 0px;
+        max-width: 300px; 
+    }
+}
 
 
   
