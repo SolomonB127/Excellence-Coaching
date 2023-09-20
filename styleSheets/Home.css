@@ -11,6 +11,9 @@
     margin: auto;
     height:100%;
   }
+  #body{
+    overflow-x: hidden;
+  }
   /* Courses Button */
   .course-dropbtn {
     background-color: #0000ff;
@@ -216,8 +219,6 @@
 /* footer */
 #footer{
   margin-top: 30px;
-  background-color: grey;
- 
 }
 #footer a{
   color: #000;

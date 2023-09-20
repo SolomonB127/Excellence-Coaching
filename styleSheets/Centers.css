@@ -11,6 +11,9 @@
     margin: auto;
     height:100%;
 }
+#body{
+    overflow-x: hidden;
+}
     /* Courses Button */
 .course-dropbtn {
   background-color: #0000ff;
@@ -87,4 +90,52 @@
     font-weight: bolder;
     position: relative;
     font-size: 1rem;
+}
+
+/* Contents */
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+/* Maps */
+.centers-map-container{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#moreLocations{
+    margin-left: 45%;
+    border-radius: 10px;
+    background-color: #000;
+    outline: none;
+}
+#moreLocations a{
+   color: #fff;
+   font-weight: bold;
+}
+#footer{
+    margin-top: 30px;
+  }
+  #footer a{
+    color: #000;
+  }
+/* Media Queries */
+/* Header Buttons */
+@media all and (max-width: 820px) {
+.course-show {display: inline-block;}
+.searchDropdown-content {
+   top: 40%;
+}
+  
+.course-dropbtn {
+    background: none; 
+    color: #0000ff;
+    right: 15px;
+    position: relative;
+    font-weight: bolder;
+}
+.course-dropbtn:focus{
+    background: none;
+}
 }
