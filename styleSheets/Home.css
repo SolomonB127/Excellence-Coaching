@@ -121,9 +121,10 @@
 
 /* Partnerships */
 #partnerships{
-  background-color: #aca1a1;
+  background-color:  rgb(206, 240, 255);
   text-align: center;
   margin-top: 40px;
+  padding-top: 2rem;
   font-family: 'Times New Roman', Times, serif;
 }
 #partnerships h3{
