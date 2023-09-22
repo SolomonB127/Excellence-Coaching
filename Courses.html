@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="Images\logo.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="Scripts\JQuery Download\JQuery.js"></script>
     <script src="Scripts\bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="styleSheets\bootstrap.css">
     <link rel="stylesheet" href="styleSheets\Home MQ.css">
     <link rel="stylesheet" href="styleSheets\Home.css">
-    <link rel="stylesheet" href="styleSheets\course.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="Scripts\Home.js"></script>
     <title>Courses</title>
 </head>
-
 <body>
-    <!-- Nar Bar -->
+    <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -30,38 +28,6 @@
             <!-- Courses -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <div class="course-dropdown">
-                        <button onclick="mycourseFunction()" class="course-dropbtn">Courses</button>
-                        <div id="courseDropdown" class="course-dropdown-content">
-                            <div class="f-course-row">
-                                <a href="#home">Data Science</a>
-                                <a href="#about">Business</a>
-                                <a href="#about">Psychology</a>
-                                <div class="download-course-list">
-                                    <a href="#">Download</a>
-                                </div>
-                            </div>
-                            <div class="more-courses">
-                                <a href="#home">Health</a>
-                                <a href="#about">Social Science</a>
-                                <a href="#about">Political Science</a>
-
-                            </div>
-                            <div class="s-course-row">
-                                <a href="#home">Maths and Logic</a>
-                                <a href="#about">Humanities</a>
-                                <a href="#about">Arts</a>
-                            </div>
-                            <div class="t-course-row">
-                                <a href="#home">Language Learning</a>
-                                <a href="#about">Personal Development</a>
-                                <a href="#about">Economics</a>
-                                <div class="moreCourses">
-                                    <a href="course.html">More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                     <!-- Links -->
                     <li class="nav-item" id="nav-item">
@@ -82,180 +48,400 @@
     </nav>
     <!-- NavBar Ending -->
 
-    <!-- content -->
-    <div class="content-1-div">
-        <h1 class="content-1-h1">Skill up. Stand out.</h1>
-        <p class="content-1-p">The latest tech knowledge. Expert instructors. Personalized feedback. <br> Join our
-            community of 17 million
-            learners gaining project-based skills.</p>
-        <button class="content-1-btn">Start Today</button>
-    </div>
-    <!-- content-2 -->
-    <div class="content-2-div">
-        <div>
-            <h1 class="content-2-h1">All Access for Unlimited <br> Growth</h1>
-            <p class="content-2-p">One monthly subscription opens the door to <br> our entire catalog of Nanodegree
-                programs, <br> Courses, projects, and more.</p>
+    <!--Courses-->
+    <div class="container">
+        <div class="row mt-5">
+          <div class="col-12"><b><h4>All Courses </h4></b></div>
         </div>
-        <img src="Images/myskill.png" alt="" class="content-2-img">
-    </div>
 
-    <!-- content-3 -->
-    <div class="content-3-div">
-        <div>
-            <h1 class="content-2-h1">Expert Instructors</h1>
-            <p class="content-2-p">Courses are taught by instructors with proven <br>credentials and extensive industry
-                experience, <br> vetted by our stringent approval process.</p>
-        </div>
-        <img src="Images/adams.png" alt="" class="content-3-img">
-    </div>
+        <div class="row mt-5">
 
-    <!-- content-4 -->
-    <div class="content-2-div">
-        <div>
-            <h1 class="content-2-h1">High-quality, curated <br>curriculum </h1>
-            <p class="content-2-p">Content is co-created with the world’s most <br> innovative tech companies, curated
-                by our <br> teaching experts.</p>
-        </div>
-        <img src="Images/your.png" alt="" class="content-2-img">
-    </div>
-
-    <!-- content-5 -->
-    <div class="content-5-div">
-        <div class="text-div">
-            <h1 class="content-5-h1">The Excellence Coaching <br> Difference </h1>
-            <p class="content-5-p">Prove Mastery Through Hands-On Projects</p>
-            <p class="content-5-p1"> Our open-ended projects are modeled after real-world workplace <br> scenarios, and
-                require in-depth critical thinking and creative solutions.</p>
-            <p class="content-5-p">Succeed with Personalized Feedback</p>
-            <p class="content-5-p1">Every project receives personalized feedback from industry experts, and <br>our
-                mentors are available to answer questions whenever you're feeling <br> stuck.</p>
-        </div>
-        <video autoplay loop src="Images/workspaces.mp4" class="content-3-img"></video>
-    </div>
-
-
-    <!-- Footer -->
-    <footer class="text-center text-lg-start" id="footer" style="background-color: rgb(201, 201, 247);">
-        <div class="container p-4 pb-0">
-            <section class="">
+            <div class="col-3 mb-5">
+                <!--image-->
+                <div class="row"><div class="col-12">
+                    <img src="prototype3.jpeg" alt="course image" width="255px">
+                </div> </div>
+                <!--Course title-->
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Excellence-Coaching</h5>
-                        <p>
-                            Excellence-Coaching is a premier coaching website dedicated to helping individuals unlock
-                            their full potential and achieve excellence in various aspects of their lives. Whether
-                            you're looking to enhance your career, improve your personal relationships, or boost your
-                            overall well-being, our team of experienced and certified coaches is here to guide you on
-                            your journey to success.
-                        </p>
-                    </div>
-                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">About</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                                <a href="#!">Impact</a>
-                            </li>
-                            <li>
-                                <a href="#!">Careers</a>
-                            </li>
-                            <li>
-                                <a href="#!">Our Contributors</a>
-                            </li>
-                            <li>
-                                <a href="#!">Our Community</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">New & Trending</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                                <a href="#!">New Courses</a>
-                            </li>
-                            <li>
-                                <a href="#!">Free Courses</a>
-                            </li>
-                            <li>
-                                <a href="#!">Learn AI</a>
-                            </li>
-                            <li>
-                                <a href="#!">Learn Python Programming</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Popular Career Articles</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                                <a href="#!">Examples of Strengths and Weaknesses for Job Interviews</a>
-                            </li> <br>
-                            <li>
-                                <a href="#!">High-Income Skills Worth Learning</a>
-                            </li> <br>
-                            <li>
-                                <a href="#!">How to Announce Your New Job on LinkedIn</a>
-                            </li> <br>
-                            <li>
-                                <a href="#!">How to Ask for a Letter of Recommendation</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">More</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                                <a href="#!">Policy</a>
-                            </li>
-                            <li>
-                                <a href="#!">Articles</a>
-                            </li>
-                            <li>
-                                <a href="#!">Contact</a>
-                            </li>
-                            <li>
-                                <a href="#!">Affiliates</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <div class="col-12 mt-2"><b><a style="text-decoration: none; color: inherit;" href="Data Science.html" ><h5>Data Science</h5></a></b></div>
                 </div>
-            </section>
+                <!--Course Creator-->
+                <div class="row">
+                    <div class="col-12 mt-1">By Gideon Isaac</div>
+                </div>
+            </div>
 
-            <hr class="mb-4" />
+            <div class="col-3 mb-5">
+                <!--image-->
+                <div class="row"><div class="col-12">
+                    <img src="prototype3.jpeg" alt="course image" width="255px">
+                </div> </div>
+                <!--Course title-->
+                <div class="row">
+                    <div class="col-12 mt-2"><b><a style="text-decoration: none; color: inherit;" href="Arts.html" ><h5>Arts</h5></a></b></div>
+                </div>
+                <!--Course Creator-->
+                <div class="row">
+                    <div class="col-12 mt-1">By Mike Tyson</div>
+                </div>
+            </div>
 
-            <!-- Section: Social media -->
-            <section class="mb-4 text-center">
-                <!-- Facebook -->
-                <a class="btn btn-floating m-1" href="www.facebook.com" role="button"><img
-                        src="Images\icons8-facebook-120.png" alt="" width="60"></a>
-                <!-- Instagram -->
-                <a class="btn btn-floating m-1" href="www.instgram.com" role="button"><img
-                        src="Images\icons8-instagram-120.png" alt="" width="60"></a>
-                <!-- X-->
-                <a class="btn btn-floating m-1" href="www.twitter.com" role="button"><img src="Images\icons8-x-100.png"
-                        alt="" width="50"></a>
-                <!-- Pinterest-->
-                <a class="btn btn-floating m-1" href="www.pinterest.com" role="button"><img
-                        src="Images\icons8-pinterest-120.png" alt="" width="60"></a>
-            </section>
+            <div class="col-3 mb-5">
+                <!--image-->
+                <div class="row"><div class="col-12">
+                    <img src="prototype3.jpeg" alt="course image" width="255px">
+                </div> </div>
+                <!--Course title-->
+                <div class="row">
+                    <div class="col-12 mt-2"><b><a style="text-decoration: none; color: inherit;" href="Business.html" ><h5>Business</h5></a></b></div>
+                </div>
+                <!--Course Creator-->
+                <div class="row">
+                    <div class="col-12 mt-1">By Elias Mark</div>
+                </div>
+            </div>
+
+            <div class="col-3 mb-5">
+                <!--image-->
+                <div class="row"><div class="col-12">
+                    <img src="prototype3.jpeg" alt="course image" width="255px">
+                </div> </div>
+                <!--Course title-->
+                <div class="row">
+                    <div class="col-12 mt-2"><b><a style="text-decoration: none; color: inherit;" href="Economics.html" ><h5>Economics</h5></a></b></div>
+                </div>
+                <!--Course Creator-->
+                <div class="row">
+                    <div class="col-12 mt-1">By Tobias Harris</div>
+                </div>
+            </div>
+
+
+            
+
         </div>
 
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-            © 2023 Copyright:
-            <a href="https://Excellence-Coaching.com/">Excellence-Coaching.com</a>
-        </div>
-    </footer>
+        <div class="row mt-5">
 
+            <div class="col-3 mb-5">
+                <!--image-->
+                <div class="row"><div class="col-12">
+                    <img src="prototype3.jpeg" alt="course image" width="255px">
+                </div> </div>
+                <!--Course title-->
+                <div class="row">
+                    <div class="col-12 mt-2"><b><a style="text-decoration: none; color: inherit;" href="Health.html" ><h5>Health</h5></a></b></div>
+                </div>
+                <!--Course Creator-->
+                <div class="row">
+                    <div class="col-12 mt-1">By Isaiah Bradley</div>
+                </div>
+            </div>
+
+            <div class="col-3 mb-5">
+                <!--image-->
+                <div class="row"><div class="col-12">
+                    <img src="prototype3.jpeg" alt="course image" width="255px">
+                </div> </div>
+                <!--Course title-->
+                <div class="row">
+                    <div class="col-12 mt-2"><b><a style="text-decoration: none; color: inherit;" href="Humanities.html" ><h5>Humanities</h5></a></b></div>
+                </div>
+                <!--Course Creator-->
+                <div class="row">
+                    <div class="col-12 mt-1">By Micheal Nwora</div>
+                </div>
+            </div>
+
+            <div class="col-3 mb-5">
+                <!--image-->
+                <div class="row"><div class="col-12">
+                    <img src="prototype3.jpeg" alt="course image" width="255px">
+                </div> </div>
+                <!--Course title-->
+                <div class="row">
+                    <div class="col-12 mt-2"><b><a style="text-decoration: none; color: inherit;" href="Language Learning.html" ><h5>Language Learning</h5></a></b></div>
+                </div>
+                <!--Course Creator-->
+                <div class="row">
+                    <div class="col-12 mt-1">By Mikal Bridges</div>
+                </div>
+            </div>
+
+            <div class="col-3 mb-5">
+                <!--image-->
+                <div class="row"><div class="col-12">
+                    <img src="prototype3.jpeg" alt="course image" width="255px">
+                </div> </div>
+                <!--Course title-->
+                <div class="row">
+                    <div class="col-12 mt-2"><b><a style="text-decoration: none; color: inherit;" href="Physics.html" ><h5>Physics</h5></a></b></div>
+                </div>
+                <!--Course Creator-->
+                <div class="row">
+                    <div class="col-12 mt-1">By Oscar Isaac</div>
+                </div>
+            </div>
+
+
+            
+
+        </div>
+
+        <div class="row mt-5">
+
+            <div class="col-3 mb-5">
+                <!--image-->
+                <div class="row"><div class="col-12">
+                    <img src="prototype3.jpeg" alt="course image" width="255px">
+                </div> </div>
+                <!--Course title-->
+                <div class="row">
+                    <div class="col-12 mt-2"><b><a style="text-decoration: none; color: inherit;" href="Chemistry.html" ><h5>Chemistry</h5></a></b></div>
+                </div>
+                <!--Course Creator-->
+                <div class="row">
+                    <div class="col-12 mt-1">By Noah Allen</div>
+                </div>
+            </div>
+
+            <div class="col-3 mb-5">
+                <!--image-->
+                <div class="row"><div class="col-12">
+                    <img src="prototype3.jpeg" alt="course image" width="255px">
+                </div> </div>
+                <!--Course title-->
+                <div class="row">
+                    <div class="col-12 mt-2"><b><a style="text-decoration: none; color: inherit;" href="Criminology.html" ><h5>Criminology</h5></a></b></div>
+                </div>
+                <!--Course Creator-->
+                <div class="row">
+                    <div class="col-12 mt-1">By Devin Booker</div>
+                </div>
+            </div>
+
+            <div class="col-3 mb-5">
+                <!--image-->
+                <div class="row"><div class="col-12">
+                    <img src="prototype3.jpeg" alt="course image" width="255px">
+                </div> </div>
+                <!--Course title-->
+                <div class="row">
+                    <div class="col-12 mt-2"><b><a style="text-decoration: none; color: inherit;" href="Biology.html" ><h5>Biology</h5></a></b></div>
+                </div>
+                <!--Course Creator-->
+                <div class="row">
+                    <div class="col-12 mt-1">Kawhi Leonard</div>
+                </div>
+            </div>
+
+            <div class="col-3 mb-5">
+                <!--image-->
+                <div class="row"><div class="col-12">
+                    <img src="prototype3.jpeg" alt="course image" width="255px">
+                </div> </div>
+                <!--Course title-->
+                <div class="row">
+                    <div class="col-12 mt-2"><b><a style="text-decoration: none; color: inherit;" href="Maths and Logic.html" ><h5>Maths and Logic</h5></a></b></div>
+                </div>
+                <!--Course Creator-->
+                <div class="row">
+                    <div class="col-12 mt-1">By Paul George</div>
+                </div>
+            </div>
+
+
+            
+
+        </div>
+
+        <div class="row mt-5">
+
+            <div class="col-3 mb-5">
+                <!--image-->
+                <div class="row"><div class="col-12">
+                    <img src="prototype3.jpeg" alt="course image" width="255px">
+                </div> </div>
+                <!--Course title-->
+                <div class="row">
+                    <div class="col-12 mt-2"><b><a style="text-decoration: none; color: inherit;" href="Personal Development.html" ><h5>Personal Development</h5></a></b></div>
+                </div>
+                <!--Course Creator-->
+                <div class="row">
+                    <div class="col-12 mt-1">By Bradley Beal</div>
+                </div>
+            </div>
+
+            <div class="col-3 mb-5">
+                <!--image-->
+                <div class="row"><div class="col-12">
+                    <img src="prototype3.jpeg" alt="course image" width="255px">
+                </div> </div>
+                <!--Course title-->
+                <div class="row">
+                    <div class="col-12 mt-2"><b><a style="text-decoration: none; color: inherit;" href="Political Science.html" ><h5>Political Science</h5></a></b></div>
+                </div>
+                <!--Course Creator-->
+                <div class="row">
+                    <div class="col-12 mt-1">By Kevin Durant</div>
+                </div>
+            </div>
+
+            <div class="col-3 mb-5">
+                <!--image-->
+                <div class="row"><div class="col-12">
+                    <img src="prototype3.jpeg" alt="course image" width="255px">
+                </div> </div>
+                <!--Course title-->
+                <div class="row">
+                    <div class="col-12 mt-2"><b><a style="text-decoration: none; color: inherit;" href="Psychology.html" ><h5>Psychology</h5></a></b></div>
+                </div>
+                <!--Course Creator-->
+                <div class="row">
+                    <div class="col-12 mt-1">Lauri Markkannen</div>
+                </div>
+            </div>
+
+            <div class="col-3 mb-5">
+                <!--image-->
+                <div class="row"><div class="col-12">
+                    <img src="prototype3.jpeg" alt="course image" width="255px">
+                </div> </div>
+                <!--Course title-->
+                <div class="row">
+                    <div class="col-12 mt-2"><b><a style="text-decoration: none; color: inherit;" href="Social Science.html" ><h5>Social Science</h5></a></b></div>
+                </div>
+                <!--Course Creator-->
+                <div class="row">
+                    <div class="col-12 mt-1">By Jayson Tatum</div>
+                </div>
+            </div>
+
+
+            
+
+        </div>
+        
+
+
+
+    </div>
+    <!--Courses Ending-->
+
+
+    <!--bottom of website -->
+  <!-- Footer -->
+  <footer class="text-center text-lg-start" id="footer" style="margin-top: 30px; background-color:  rgb(201, 201, 247);">
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Excellence-Coaching</h5>
+                <p>
+                    Excellence-Coaching is a premier coaching website dedicated to helping individuals unlock their full potential and achieve excellence in various aspects of their lives. Whether you're looking to enhance your career, improve your personal relationships, or boost your overall well-being, our team of experienced and certified coaches is here to guide you on your journey to success.
+                </p>
+              </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">About</h5>
+                <ul class="list-unstyled mb-0">
+                    <li>
+                        <a href="#!">Impact</a>
+                    </li>
+                    <li>
+                        <a href="#!">Careers</a>
+                    </li>
+                    <li>
+                        <a href="#!">Our Contributors</a>
+                    </li>
+                    <li>
+                        <a href="#!">Our Community</a>
+                    </li>
+                </ul>
+            </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">New & Trending</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">New Courses</a>
+              </li>
+              <li>
+                <a href="#!">Free Courses</a>
+              </li>
+              <li>
+                <a href="#!">Learn AI</a>
+              </li>
+              <li>
+                <a href="#!">Learn Python Programming</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Popular Career Articles</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">Examples of Strengths and Weaknesses for Job Interviews</a>
+              </li> <br>
+              <li>
+                <a href="#!">High-Income Skills Worth Learning</a>
+              </li> <br>
+              <li>
+                <a href="#!">How to Announce Your New Job on LinkedIn</a>
+              </li> <br>
+              <li>
+                <a href="#!">How to Ask for a Letter of Recommendation</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">More</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!">Policy</a>
+              </li>
+              <li>
+                <a href="#!">Articles</a>
+              </li>
+              <li>
+                <a href="#!">Contact</a>
+              </li>
+              <li>
+                <a href="#!">Affiliates</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <hr class="mb-4" />
+
+      <!-- Section: Social media -->
+      <section class="mb-4 text-center">
+        <!-- Facebook -->
+        <a class="btn btn-floating m-1" href="www.facebook.com" role="button"><img src="Images\icons8-facebook-120.png" alt="" width="60"></a>
+        <!-- Instagram -->
+        <a class="btn btn-floating m-1" href="www.instgram.com" role="button"><img src="Images\icons8-instagram-120.png" alt="" width="60"></a>
+        <!-- X-->
+        <a class="btn btn-floating m-1" href="www.twitter.com" role="button"><img src="Images\icons8-x-100.png" alt="" width="50"></a>
+        <!-- Pinterest-->
+        <a class="btn btn-floating m-1" href="www.pinterest.com" role="button"><img src="Images\icons8-pinterest-120.png" alt="" width="60"></a>
+      </section>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2023 Copyright:
+      <a  href="https://Excellence-Coaching.com/">Excellence-Coaching.com</a>
+    </div>
+  </footer>
+</div>
 </body>
-
 </html>
